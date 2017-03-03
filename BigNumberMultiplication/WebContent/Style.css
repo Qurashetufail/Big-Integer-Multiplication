@@ -1,0 +1,43 @@
+@CHARSET "ISO-8859-1";
+
+.mydiv {
+	text-align: center;
+}
+
+.mydiv>input {
+	text-align: left;
+}
+
+input[type="text"] {
+	width: 30%;
+	height: 25px;
+	line-height: 25px;
+	color: #333;
+	background-color: #F0F0DB;
+	border: 1px solid #236;
+	border-radius: 3px;
+	padding: 3px;
+}
+
+input[type="submit"],
+input[type="button"] {
+	border-radius: 5px;
+	border: 0;
+	background: #235;
+	color: #eee;
+	line-height: 27px;
+	height: 30px;
+	text-align: center;
+	cursor: pointer;
+}
+
+textarea#styleid {
+	width: 70%;
+	height: 200px;
+	line-height: 25px;
+	color: #333;
+	background-color: #F0F0DB;
+	border: 1px solid #236;
+	border-radius: 3px;
+	padding: 3px;
+}
